@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;;
+
+}
+/* nav bar */
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav img{
+    padding-top: 5px;
+    width: 130px;
+    height: 70px;
+}
+
+/* landing Page */
+
+#landing{
+    display: flex;
+    justify-content: space-between;
+
+}
+.details{
+    padding-top: 130px;
+    padding-left: 25px;
+
+}
+.faster span{
+    color: rgb(59, 59, 240);
+}
+.secure span{
+    color: rgb(226, 195, 22);
+}
+.secure{
+    padding-top: 30px;
+}
+.details h1{
+    font-size: 4rem;
+    margin: 0px;
+}
+.transfer{
+    margin-top: 120px;
+    background-color:  rgb(59, 59, 240);
+    font-weight: bolder;
+    font-size: large;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 170px;
+    height: 50px;
+    transition: .5s;
+}
+.history{
+    margin-left: 30px;
+    padding-left: 20px;
+    background-color:  rgb(230, 196, 46);
+    font-weight: bolder;
+    font-size: large;
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    transition: .5s;
+}
+.transfer:hover{
+    background-color: rgb(230, 196, 46);
+}
+.history:hover{
+    background-color: rgb(59, 59, 240);
+}
+.banner img{
+    height: 489px;
+    padding-top: 65px;
+    width: 715px;
+}
